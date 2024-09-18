@@ -14,5 +14,6 @@ public class UsersTest {
     @CsvSource({"Иван, Иванов, 35", "Петр, Петров, 42", "Сергей, Сидоров, 28"})
     void testPrintClientInfo(String firstName, String lastName, int age) {
         printClientInfo(firstName, lastName, age);
+        System.out.println("Тесты завершены");
     }
 }
